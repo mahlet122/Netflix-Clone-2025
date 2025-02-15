@@ -1,9 +1,6 @@
-
 .header_outer_container  {
     position: sticky;
     top: 0;
-    
-    /* display: flex; */
     justify-content: center;
     align-items:center ;
     height: 10vh;
@@ -12,7 +9,7 @@
     background-color: rgb(148, 132, 132);
     background-color: rgb(20, 20, 20);
     transition-timing-function: ease-in;
-     /* background-color: transparent; */
+     background-color: transparent;
     z-index: 1;
     
 }
@@ -43,6 +40,7 @@ margin-left: 50px;
     list-style: none;
     margin-right: 50px; 
 }
+
 .header_right li{
      margin-right: 10px;
 }
