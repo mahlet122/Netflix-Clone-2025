@@ -1,0 +1,48 @@
+.header_outer_container  {
+    position: sticky;
+    top: 0;
+    justify-content: center;
+    align-items:center ;
+    height: 10vh;
+    color: white;
+    transition: all 0.5s;  
+    background-color: rgb(148, 132, 132);
+    background-color: rgb(20, 20, 20);
+    transition-timing-function: ease-in;
+     background-color: transparent;
+    z-index: 1;
+    
+}
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+
+}
+.header_left ul{
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    width:140%;
+    cursor: pointer;
+}
+.header_left li{
+    font-size: 14px;
+}
+.header_left img{
+margin-left: 50px;
+}
+.header_right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px; 
+}
+
+.header_right li{
+     margin-right: 10px;
+}
+
+
